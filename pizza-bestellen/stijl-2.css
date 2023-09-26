@@ -1,0 +1,419 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+input {
+    cursor: pointer;
+    background-color: rgb(228, 228, 228);
+    border-radius: 0.5em;
+}
+
+.container-A {
+    padding-top: 0.5em;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+
+}
+
+.kopstuk-img {
+    width: 95%;
+    margin: auto;
+    background-color: rgba(6, 134, 64, 0.5);
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+}
+.kopstuk-img div {
+    width: 90%;
+    height: 30em;
+    margin: auto;
+    background-image: url(images/kopstuk-pizza.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat; 
+    border: 0.5em solid black;
+    border-bottom: 2em solid black;
+    border-radius: 1em;
+    box-shadow: -0.5em 1em 0.5em rgba(6, 134, 64, 1);  
+}
+
+.container-B h1{
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(2, 44, 23, 0.7);
+}
+.container-B h1 + p{
+    text-align: center;
+    color: rgba(2, 44, 23, 0.7);
+}
+
+
+
+.soorten-pizzas {
+    width: 95%;
+    margin: auto;
+    padding-top: 2em;
+    padding-bottom: 4em;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border-radius: 1em;
+}
+
+.keuzes-container {
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:  auto auto auto;
+    grid-template-rows: repeat(4, auto);
+    column-gap: 2%;
+    row-gap: 2em;
+}
+
+.keuze {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border: 0.25em double black;
+}
+.keuze input {
+    width: 1.5em;
+    height: 1.5em;
+}
+.keuze p {
+    display: inline;
+}
+.keuze p span {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: rgb(233, 65, 65);   
+}
+.pizza {
+    background-color: rgba(6, 134, 64, 0.5);
+    margin-bottom: 0.5em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    border-radius: 0.5em;
+    border: 0.25em solid black;
+    border-bottom: 0.75em solid black;
+}
+.pizza div {
+    width: 95%;
+    height: 15em;
+    margin: auto;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0.5em;
+}
+.pizza-A div {
+    background-image: url(images/p-margaritha.jpg);
+}
+.pizza-A div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-B div {
+    background-image: url(images/pizza-funghi.jpg);
+}
+.pizza-B div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-C div {
+    background-image: url(images/p-pepperoni_1.jpg);
+}
+.pizza-C div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-D div {
+    background-image: url(images/pizza-salami.jpg);
+}
+.pizza-D div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-E div {
+    background-image: url(images/p-hawaii.jpg);
+}
+.pizza-E div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-F div {
+    background-image: url(images/p-tonno.jpg);
+}
+.pizza-F div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-G div {
+    background-image: url(images/p-salmone.jpg);
+}
+.pizza-G div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-H div {
+    background-image: url(images/pizza-four-cheese.jpg);
+}
+.pizza-H div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-I div {
+    background-image: url(images/p-veggi.jpg);
+}
+.pizza-I div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-J div {
+    background-image: url(images/p-vegan-funghi.jpg);
+}
+.pizza-J div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-K div {
+    background-image: url(images/p-vegan-veggi.jpg);
+}
+.pizza-K div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+.pizza-L div {
+    background-image: url(images/pizza-vegan-margharita.jpg);
+}
+.pizza-L div:hover {
+    background-size: 120% 120%;
+    transition: 2000ms ease;
+}
+
+
+
+
+
+
+
+
+
+
+.samenstelling-hoofd-container {
+    width: 95%;
+    margin: auto;
+}
+.samenstelling-hoofd-container h2 {
+    font-size: 2rem;
+    text-align: center;
+    color: rgba(2, 44, 23, 0.7);
+}
+.samenstelling-hoofd-container p {
+    text-align: center;
+    color: rgba(2, 44, 23, 0.7);
+}
+
+.grid-samenstelling {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    column-gap: 20%;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border-radius: 1em;
+}
+
+.samenstelling-container {
+    padding-left: 1em;
+    padding-right: 7em;
+    padding-bottom: 1.5em;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border: 0.25em double rgba(2, 44, 23, 0.7);
+    box-shadow: -0.25em 0.5em 0.25em rgba(6, 134, 64, 1);   
+}
+.samenstelling-container:nth-of-type(1) {
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+}
+.samenstelling-container:nth-of-type(2) {
+   border-radius: 1em; 
+}
+.samenstelling-container:nth-of-type(3) {
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+}
+.samenstelling-container dt {
+    font-size: 1.25rem;
+    color: rgb(233, 65, 65);
+}
+
+.bodem {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.bodem li {
+    font-weight: 700;
+    margin-bottom: 0.5em;
+    padding: 0.5em 1em;
+    border: 0.25em solid rgba(2, 44, 23, 0.7);;
+    border-radius: 0.5em;
+    box-shadow: -0.25em 0.5em 0.25em rgba(6, 134, 64, 1);
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.6), rgba(227, 240, 45, 0.6) 70.71%);
+    display: grid;
+    grid-template-columns: 5em 2em;   
+}
+.bodem li input {
+    width: 1.25em;
+    height: 1.25em;
+    justify-self: start;
+}
+
+.toppings {
+    grid-column: 1 / 2;
+    grid-row: 1 / -1;
+}
+.toppings li {
+    font-weight: 700;
+    margin-bottom: 1em;
+    padding: 0.5em 1em;
+    border: 0.25em solid rgba(2, 44, 23, 0.7);;
+    border-radius: 0.5em;
+    box-shadow: -0.25em 0.5em 0.25em rgba(6, 134, 64, 1);
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.6), rgba(227, 240, 45, 0.6) 70.71%);
+    display: grid;
+    grid-template-columns: 7.5em 2em;
+}
+.toppings li input {
+    width: 1.25em;
+    height: 1.25em;
+    justify-self: start;
+}
+
+.drank {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+.drank dd {
+    margin-top: 1em;
+    padding-top: 1em;
+    padding-bottom: 10em;
+    background-image: url(images/kopstuk-pizza.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0.25em solid rgba(2, 44, 23, 0.7);;
+    border-radius: 0.5em;
+    box-shadow: -0.25em 0.5em 0.25em rgba(6, 134, 64, 1);
+}
+.drank dd select {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin: 0 0.5em;
+    padding: 0.5em 1em;
+    border: 0.25em solid rgba(2, 44, 23, 0.7);;
+    border-radius: 0.5em;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.6), rgba(227, 240, 45, 0.6) 70.71%);
+    text-shadow: -0.05em 0.05em 0.025em whitesmoke;
+    cursor: pointer;
+}
+
+
+
+
+
+
+.olijven-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    background-color: rgba(6, 134, 64, 0.5);
+    border-radius: 1em;
+    padding-top: 1em;
+    padding-bottom: 2em;
+
+}
+.olijven-container div {
+    width: 90%;
+    height: 30em;
+    margin: auto;
+    background-image: url(images/olijven.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border: 0.5em solid black;
+    border-bottom: 2em solid black;
+    border-radius: 1em;
+    box-shadow: -0.5em 1em 0.5em rgba(6, 134, 64, 1);   
+}
+
+
+
+
+
+
+
+.personalia-container {
+    width: 95%;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 2em;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border-radius: 1em;
+}
+.personalia-container > div {
+    width: 50%;
+    margin: auto;
+}
+.personalia-container fieldset {
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border-radius: 1em;
+    box-shadow: -0.5em 1em 0.5em rgba(6, 134, 64, 1);
+    grid-column: 1 / -1;
+    grid-row: 1 / 2;
+    border: 0.25em double black;   
+}
+.personalia-container textarea {
+    width: 50%;
+    background-color: rgb(228, 228, 228);
+    border-radius: 0.5em;   
+}
+
+.buttons {
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+}
+.submit {
+    font-size: 1.1rem;
+    padding: 0.5em 2em;
+    justify-self: end;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border: 0.25em double black;
+    box-shadow: -0.25em 0.5em 0.25em rgba(6, 134, 64, 1);
+}
+.reset {
+    font-size: 1.1rem;
+    order: -1;
+    padding: 0.5em 2em;
+    justify-self: start;
+    border-radius: 0.5em;
+    cursor: pointer;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    border: 0.25em double black;
+    box-shadow: -0.25em 0.5em 0.25em rgba(6, 134, 64, 1);
+}
+
+.submit:hover, .submit:focus {
+    background-color: green;
+    color: whitesmoke;
+    border: 0.25em double whitesmoke;
+}
+.reset:hover, .reset:focus {
+    background-color: red;
+    color: whitesmoke;
+    border: 0.25em double whitesmoke;
+}

@@ -1,0 +1,452 @@
+.container-A {
+    width: 100%;
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.4), rgba(227, 240, 45, 0.4) 70.71%);
+    padding-right: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;
+}
+
+.container-A img {
+    width: 100%;
+    height: 30em;
+    margin-top: 0.5em;
+    margin-bottom: 2em;
+    border-radius: 5px;
+    border-top: 1px solid black;
+    border-bottom: 3px solid black;
+    border-right: 1px solid black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+}
+
+.container-B {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    word-spacing: 0.5em;
+}
+
+.container-B p {
+    text-align: center;
+    word-spacing: 0.1em;
+}
+
+
+
+
+.keuzes-container {
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.2), rgba(227, 240, 45, 0.2) 70.71%);
+    width: 100%;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+}
+
+.keuzes-container span {
+    font-size: 125%;
+}
+
+.keuzes-container img {
+    width: 100%;
+    height: 10em;    
+}
+
+.keuzes-container img:hover {
+    width: 125%;
+    height: 15em;
+}
+
+
+
+
+.container-1 {
+    overflow: hidden;
+}
+
+.keuze-1 {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.keuze-1 .A {
+    float: left;
+    width: 45%;
+    margin-left: 1.5em;
+    margin-top: 1.6em;
+}
+
+.keuze-1 .B {
+    float: right;
+    width: 45%;    
+}
+
+.keuze-1 input {
+margin-top: 2.5em;
+}
+
+
+
+
+
+
+
+.container-2 {
+    overflow: hidden;
+}
+
+.keuze-2 {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.keuze-2 .A {
+    float: left;
+    width: 45%;
+    margin-top: 1.6em;
+    margin-left: 1.5em;
+}
+
+.keuze-2 .B {
+    float: right;
+    width: 45%;
+        
+}
+
+.keuze-2 input {
+margin-top: 2.5em;
+}
+
+
+
+
+
+
+.container-3 {
+    overflow: hidden;
+}
+
+.keuze-3 {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.keuze-3 .A {
+    float: left;
+    width: 45%;
+    margin-top: 1.6em;
+    margin-left: 1.5em;
+}
+
+.keuze-3 .B {
+    float: right;
+    width: 45%;    
+}
+
+.keuze-3 input {
+margin-top: 2.5em;
+}
+
+
+
+
+
+
+
+
+.container-4 {
+    overflow: hidden;
+}
+
+.keuze-4 {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.keuze-4 .A {
+    float: left;
+    width: 45%;
+    margin-top: 1.6em;
+    margin-left: 1.5em;
+}
+
+.keuze-4 .B {
+    float: right;
+    width: 45%;    
+}
+
+.keuze-4 input {
+margin-top: 2.5em;
+}
+
+
+
+
+
+
+
+
+.container-5 {
+    overflow: hidden;
+}
+
+.keuze-5 {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.keuze-5 .A {
+    float: left;
+    width: 45%;
+    margin-top: 1.6em;
+    margin-left: 1.5em;
+}
+
+.keuze-5 .B {
+    float: right;
+    width: 45%;    
+}
+
+.keuze-5 input {
+margin-top: 2.5em;
+}
+
+
+
+
+
+
+
+
+.container-6 {
+    overflow: hidden;
+}
+
+.keuze-6 {
+    width: 45%;
+    overflow: hidden;
+    float: left;
+    
+}
+
+.keuze-6 .A {
+    float: left;
+    width: 45%;
+    margin-top: 1.6em;
+    margin-left: 1.5em;
+}
+
+.keuze-6 .B {
+    float: right;
+    width: 45%;    
+}
+
+.keuze-6 input {
+margin-top: 2.5em;
+}
+
+
+
+
+
+.samenstelling-hoofd-container {
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.2), rgba(227, 240, 45, 0.2) 70.71%);
+    width: 100%;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    overflow: hidden;
+    margin-top: 3em;
+}
+
+.samenstelling-container {
+    float: left;
+    width: 31%;
+    padding-right: 1em;
+    
+}
+
+.samenstelling-container ul li{
+    list-style-image: url(images/p-cartoon.jpg);
+    padding-bottom: 5px;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.6), rgba(227, 240, 45, 0.6) 70.71%);
+    text-align: center;
+    
+}
+
+.samenstelling-koptext-container {
+    text-align: center;
+}
+
+.samenstelling-koptext-container h2 {
+    color: rgba(2, 44, 23, 0.7);
+}
+
+.samenstelling-container span {
+    font-size: 135%;
+    margin-left: 40%;
+
+}
+
+.samenstelling-container dl dd p {
+    text-align: center;
+    
+}
+
+.drank {
+    background-image: url(images/kopstuk-pizza.jpg);
+    width: 28%;
+    height: 42em;
+    margin-left: 2%;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+}
+
+.drank span {
+    color: whitesmoke;
+}
+
+.toppings {
+    width: 28%;
+    height: 42em;
+    margin-left: 2%;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.3), rgba(227, 240, 45, 0.3) 70.71%);
+    
+}
+
+.bodem {
+    width: 28%;
+    height: 42em;
+    margin-left: 2%;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.3), rgba(227, 240, 45, 0.3) 70.71%);
+}
+
+
+
+.olijven-container {
+    margin-top: 2em;
+}
+
+.olijven-container img {
+    width: 100%;
+    height: 25em;
+}
+
+
+
+
+
+
+.personalia-container {
+    width: 80%;
+    margin: 2em auto;
+    padding-bottom: 2em;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    background: linear-gradient(336deg, rgba(15, 218, 174, 0.6), rgba(227, 240, 45, 0.6) 70.71%);
+    
+}
+
+.personalia-container p {
+    text-align: left;
+    color: rgba(2, 44, 23, 0.7);
+}
+
+.personalia-container input, textarea {
+    border-radius: 5px;
+}
+
+fieldset {
+    margin: 1em;
+}
+
+span {
+    color: rgb(233, 65, 65);
+}
+
+.submit {
+    float: left;
+    margin-left: 2em;
+    margin-bottom: 1em;
+    padding: 13px 20px;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    background-color: rgb(191, 245, 92);
+}
+
+.submit:hover {
+    background-color: aquamarine;
+}
+
+.reset {
+    float: right;
+    margin-right: 2em;
+    margin-bottom: 1em;
+    padding: 13px 20px;
+    border-radius: 5px;
+    border-top: 1px dotted black;
+    border-bottom: 3px solid black;
+    border-right: 1px dotted black;
+    border-left: 3px solid black;
+    box-shadow: -6px 6px 2px 1px rgba(6, 134, 64, 1);
+    background-color: rgb(191, 245, 92);
+}
+
+.reset:hover {
+    background-color: aquamarine;
+}
+
+.buttons {
+    overflow: hidden;
+}
